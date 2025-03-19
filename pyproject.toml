@@ -1,0 +1,7 @@
+[project]
+name = "revoltijoapp"
+version = "0.1.0"
+description = ""
+authors = ["gelshll notfumo@pm.me"]
+requires-python = ">=3.11"
+dependencies = [aiohttp, revolt.py]
