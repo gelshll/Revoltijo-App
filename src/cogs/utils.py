@@ -19,4 +19,7 @@ class Utilities(commands.Cog):
             print(f'Error: {e}')
 
 def setup(client) -> None:
-    client.add_cog(Utilities(client))
+    try:
+        client.add_cog(Utilities(client))
+    except Exception as e:
+        print(f'Error: {e}')
